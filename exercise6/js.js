@@ -10,6 +10,7 @@ const myNamespace = {
 //knapp
 let myBtn = document.querySelector("#myBtn");
 
+//eventlistener som lyssnar på klick
 myBtn.addEventListener("click", function() {
   myNamespace.click();
 })
