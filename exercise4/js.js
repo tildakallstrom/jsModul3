@@ -1,10 +1,6 @@
-// Vad skrivs ut?
+let personA = {firstName:"Thomas", lastName:"Lundqvist", age:47, favorite:"apple"}
+let personB = personA;
 
-var personA = {firstName:"Thomas", lastName:"Lundqvist", age:47, favorite:"apple"}
-//personB blir personA
-var personB = personA;
-
-//personA's favourite
 personB.favorite = "pear";
 
 printit(personA);

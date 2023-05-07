@@ -7,11 +7,9 @@ const tempen = {
     ]
     };
 
-    //loop through data
     for (let i = 0; i < tempen.stad.length; i++) {
         let stad = tempen.stad[i];
 
-        //if stad = Stockholm, write out data
         if (stad.namn === "Stockholm") {
             let data = `Data for Stockholm:\nNatt: ${stad.natt}\nMorgon: ${stad.morgon}\nKväll: ${stad.kvall}`;
             alert(data);
